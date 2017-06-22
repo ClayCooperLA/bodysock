@@ -1,0 +1,4 @@
+src/html
+**/build/**
+**/src/javascript/libs/vendor/
+**/vendor/**

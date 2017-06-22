@@ -1,0 +1,64 @@
+//
+// Main content
+// ---------------------------
+
+main {
+    padding: 0 4.5vw;
+    padding-bottom: 4.5vw;
+
+    .intro-paragraph {
+        margin-bottom: 3em;
+    }
+
+    .examples {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .example {
+            margin-bottom: 12vw;
+
+            &.example-4 {
+                visibility: hidden;
+            }
+
+            svg {
+                margin-bottom: 1em;
+            }
+            h4 {
+                font-size: 1.45em;
+                margin: 0.3em 0;
+                color: $black;
+            }
+            p {
+                color: $black;
+                font-style: italic;
+                strong {
+                    color: $samon;
+                }
+            }
+        }
+    }
+}
+
+
+@include tablet {
+    main {
+        .intro-paragraph {
+            width: 70%;
+        }
+        .examples {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .example {
+                width: 25%;
+                margin-right: 4vw;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

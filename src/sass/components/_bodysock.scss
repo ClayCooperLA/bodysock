@@ -1,0 +1,34 @@
+//
+// Bodymovin test
+// ---------------------------
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodysock {
+    position: relative;
+    background: rgba($samon, 0.1);
+    width: 100%;
+    height: 30vw;
+    margin: auto;
+    svg {
+        width: 100%;
+        height: 30vw;
+    }
+}
+
+@include tablet {
+    .bodysock {
+        width: 100%;
+        height: 30vw;
+        margin: auto;
+        svg {
+            width: 100%;
+            height: 30vw;
+        }
+    }
+}
