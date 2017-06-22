@@ -12,13 +12,13 @@ export default class Navigation extends React.Component {
                         <h3>Greensock powered Bodymovin</h3>
                     </div>
                     <div className="links">
-                        {/*  <Link to="/example1" activeClassName="selected">Example 1</Link>
+                        <Link to="/example1" activeClassName="selected">Example 1</Link>
                         <Link to="/example2" activeClassName="selected">Example 2</Link>
                         <Link to="/example3" activeClassName="selected">Example 3</Link>
-                    <Link to="/example4" activeClassName="selected">Example 4</Link>*/}
-                        <a href="/example1">Example 1</a>
+                    {/* <Link to="/example4" activeClassName="selected">Example 4</Link>*/}
+                        {/*<a href="/example1">Example 1</a>
                         <a href="/example2">Example 2</a>
-                        <a href="/example3">Example 3</a>
+                        <a href="/example3">Example 3</a>*/}
                     </div>
                 </div>
             </div>

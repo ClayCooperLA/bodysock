@@ -1,5 +1,5 @@
 import React from 'react';
-import { a } from 'react-router';
+import { Link } from 'react-router';
 
 export default class Home extends React.Component {
 
@@ -40,7 +40,7 @@ export default class Home extends React.Component {
                 <h3>Examples:</h3>
                 <div className="examples">
                     <div className="example">
-                        <a href="/example1" className="example-a-wrap">
+                        <Link to="/example1" className="example-a-wrap">
                             <div className="example-svg">
                                 <svg version="1.1" width="245px" height="245px" viewBox="0 0 245 245">
                                     <rect opacity="0.76" fill="#FF4747" width="245" height="245"/>
@@ -55,11 +55,11 @@ export default class Home extends React.Component {
                                 <br />
                                 <strong>Learn more =></strong>
                             </p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="example">
-                        <a href="/example2" className="example-a-wrap">
+                        <Link to="/example2" className="example-a-wrap">
                             <div className="example-svg">
                                 <svg version="1.1" width="245px" height="245px" viewBox="0 0 245 245">
                                     <rect opacity="0.76" fill="#FF4747" width="245" height="245"/>
@@ -74,11 +74,11 @@ export default class Home extends React.Component {
                                 <br />
                                 <strong>Learn more =></strong>
                             </p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="example">
-                        <a href="/example3" className="example-a-wrap">
+                        <Link to="/example3" className="example-a-wrap">
                             <div className="example-svg">
                                 <svg version="1.1" width="245px" height="245px" viewBox="0 0 245 245">
                                     <rect opacity="0.76" fill="#FF4747" width="245" height="245"/>
@@ -110,11 +110,11 @@ export default class Home extends React.Component {
                                 <br />
                                 <strong>Learn more =></strong>
                             </p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="example example-4">
-                        <a href="/example4" className="example-a-wrap">
+                        <Link to="/example4" className="example-a-wrap">
                             <div className="example-svg">
                                 <svg version="1.1" width="245px" height="245px" viewBox="0 0 245 245">
                                     <rect opacity="0.76" fill="#FF4747" width="245" height="245"/>
@@ -146,7 +146,7 @@ export default class Home extends React.Component {
                                 <br />
                                 <strong>Learn more =></strong>
                             </p>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
